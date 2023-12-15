@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    margin : 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    min-height: 2000px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px; 
+    background-color: gray;
+    color: white;
+    text-shadow: 0 0 20px black;
+}
+
+nav .menu ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin-right: 100px;
+}
+
+nav .menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .menu ul li a:hover{
+    color: black;
+}
+
+nav{
+    font-size: 16px;
+}
+
+nav .login a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+nav .login a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+nav button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    transition: all .2s ease-in-out;
+}
+
+nav button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.lapor h2{
+    text-align: center;
+    font-size: 32px;
+}
+
+.box-lapor{
+    display: flex;
+    margin: auto;
+    width: 95%;
+    height: 900px;
+    font-size: 23px;
+}
+
+.text{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;align-items: baseline;
+    padding: 42px 0;
+}
+
+.text label{
+    margin-left: 50px;
+}
+
+.input{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 50px;
+}
+
+.input input{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 34px;
+}
+
+.input #lapor{
+    width: 90%;
+}
+
+.input button{
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 535px;
+}
